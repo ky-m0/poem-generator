@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Nature Poem Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Nature Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="form">
           <input
             type="text"
             placeholder="Enter a topic for your nature poem..."
@@ -23,13 +24,7 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem">
-          The poem will go here
-          <br />
-          The poem will go here
-          <br />
-          The poem will go here
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         ⚙️ Coded by <a href="https://github.com/ky-m0">ky-m0</a>, open-sourced
