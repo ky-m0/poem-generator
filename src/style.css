@@ -1,5 +1,59 @@
-header,
-main,
-footer {
+body {
+  background-image: url("forest.png");
   font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+a {
+  color: aqua;
+}
+
+input {
+  margin: 40px 5px;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 500px;
+  padding: 30px 40px;
+  background-color: #131a1b;
+  opacity: 88%;
+  border-radius: 8px;
+}
+
+.input {
+  border-radius: 8px;
+  width: 250px;
+  background-color: #414141;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.submit {
+  border-radius: 8px;
+  background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.poem {
+  margin-bottom: 50px;
+  max-width: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #212121;
+  padding: 10px;
+  border-radius: 8px;
 }
