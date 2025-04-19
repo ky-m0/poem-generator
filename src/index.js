@@ -1,5 +1,5 @@
 function generatePoem(event) {
-  event.preventDefaut();
+  event.preventDefault();
 
   new Typewriter("#poem", {
     strings: ["Hello world abcd "],
