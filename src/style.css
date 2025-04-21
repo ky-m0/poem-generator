@@ -28,7 +28,7 @@ h1 {
 
 .input {
   border-radius: 8px;
-  width: 230px;
+  width: 200px;
   display: inline;
   background-color: #414141;
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ h1 {
 
 .submit {
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 8px;
   display: inline;
   background-color: #212121;
@@ -49,14 +49,14 @@ h1 {
 
 .example {
   margin-top: 5px;
-  margin-left: 80px;
+  margin-left: 93px;
   font-size: small;
   text-align: justify;
 }
 .poem {
   margin: auto;
   margin-bottom: 50px;
-  max-width: 315px;
+  max-width: 350px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #ffffff;
   color: #212121;
