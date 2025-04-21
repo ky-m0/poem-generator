@@ -6,27 +6,30 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>AI Nature Poem Generator</title>
+    <title>AI Nature Haiki Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Nature Poem Generator</h1>
+        <h1>AI Nature Haiku Poem Generator</h1>
       </header>
       <main>
-        <form id="form" class="form">
-          <input
-            type="text"
-            placeholder="Enter a topic for your nature poem..."
-            class="input"
-            id="instructions"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="submit" value="Submit" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="form" class="form">
+            <input
+              type="text"
+              placeholder="Enter a topic for your nature poem..."
+              class="input"
+              id="instructions"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="submit" value="Submit" />
+          </form>
+          <div class="example">e.g. trees, the moon</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         ⚙️ Coded by <a href="https://github.com/ky-m0">ky-m0</a>, open-sourced
